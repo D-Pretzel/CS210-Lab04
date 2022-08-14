@@ -31,7 +31,7 @@ int main() {
     // Print the value of the variable you just made
     printf("value of int: %i\n", maxMinus);
     // Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of ini: %i\n", ++maxMinus);
+    printf("value of int: %i\n", ++maxMinus);
     // (2x) Increment the value of your integer variable, and print it out using the same format as above
     printf("value of int: %i\n", ++maxMinus);
     // (3x) Increment the value of your integer variable, and print it out using the same format as above
