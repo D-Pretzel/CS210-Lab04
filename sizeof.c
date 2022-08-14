@@ -19,11 +19,11 @@ int main() {
     char charVar;
 
     // Create Your Print Statements Here
-    printf("An int variable uses %lu bytes\n", sizeof(intVar));
-    printf("A long variable uses %lu bytes\n", sizeof(longVar));
-    printf("A float variable uses %lu bytes\n", sizeof(floatVar));
-    printf("A double variable uses %lu bytes\n", sizeof(doubleVar));
-    printf("A char variable uses %lu bytes\n", sizeof(charVar));
+    printf("An int variable uses 0%ld bytes\n", sizeof(intVar));
+    printf("A long variable uses 0%ld bytes\n", sizeof(longVar));
+    printf("A float variable uses 0%ld bytes\n", sizeof(floatVar));
+    printf("A double variable uses 0%ld bytes\n", sizeof(doubleVar));
+    printf("A char variable uses 0%ld bytes\n", sizeof(charVar));
 
     return 0;
 }
