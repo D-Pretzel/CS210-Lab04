@@ -7,13 +7,23 @@
  * ============================================================= */
 
 // Create Include Statements Here
-
+#include <stdio.h>
 
 int main() {
 
     // Create Your Variables Here
+    int intVar;
+    long longVar;
+    float floatVar;
+    double doubleVar;
+    char charVar;
 
     // Create Your Print Statements Here
+    printf("An int variable uses %lu bytes\n", sizeof(intVar));
+    printf("A long variable uses %lu bytes\n", sizeof(longVar));
+    printf("A float variable uses %lu bytes\n", sizeof(floatVar));
+    printf("A double variable uses %lu bytes\n", sizeof(doubleVar));
+    printf("A char variable uses %lu bytes\n", sizeof(charVar));
 
     return 0;
 }
