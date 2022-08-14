@@ -29,13 +29,13 @@ int main() {
     // Create an integer variable, and assign it the value of INT_MAX - 1
     int maxMinus = INT_MAX - 1;
     // Print the value of the variable you just made
-    printf("value of init: %i\n", maxMinus);
+    printf("value of int: %i\n", maxMinus);
     // Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", ++maxMinus);
+    printf("value of ini: %i\n", ++maxMinus);
     // (2x) Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", ++maxMinus);
+    printf("value of int: %i\n", ++maxMinus);
     // (3x) Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", ++maxMinus);
+    printf("value of int: %i\n", ++maxMinus);
 
     // Task 3 -----------------------------------------------------------------------
 
