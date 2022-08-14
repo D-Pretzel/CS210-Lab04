@@ -31,11 +31,11 @@ int main() {
     // Print the value of the variable you just made
     printf("value of init: %i\n", maxMinus);
     // Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", maxMinus++);
+    printf("value of init: %i\n", ++maxMinus);
     // (2x) Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", maxMinus++);
+    printf("value of init: %i\n", ++maxMinus);
     // (3x) Increment the value of your integer variable, and print it out using the same format as above
-    printf("value of init: %i\n", maxMinus++);
+    printf("value of init: %i\n", ++maxMinus);
 
     // Task 3 -----------------------------------------------------------------------
 
@@ -44,11 +44,11 @@ int main() {
     // Print the value of the variable you just made
     printf("value of long: %ld\n", longMaxMinus);
     // Increment the value of your long variable, and print it out using the same format as above
-    printf("value of long: %ld\n", longMaxMinus++);
+    printf("value of long: %ld\n", ++longMaxMinus);
     // (2x) Increment the value of your long variable, and print it out using the same format as above
-    printf("value of long: %ld\n", longMaxMinus++);
+    printf("value of long: %ld\n", ++longMaxMinus);
     // (3x) Increment the value of your long variable, and print it out using the same format as above
-    printf("value of long: %ld\n", longMaxMinus++);
+    printf("value of long: %ld\n", ++longMaxMinus);
 
     return 0;
 }
