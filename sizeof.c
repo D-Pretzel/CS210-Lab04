@@ -1,7 +1,7 @@
 /** sizeof.c
  * =============================================================
- * Name: Your Name, Date
- * Section:  Your Section
+ * Name: David Petzold, 14 Aug 22
+ * Section:  T6/7
  * Project:  Lab 04
  * Purpose:  Determine the size of various data types
  * ============================================================= */
